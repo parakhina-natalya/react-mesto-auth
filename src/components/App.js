@@ -136,6 +136,9 @@ function App() {
           setEmail(res.data.email);
         }
       })
+      .catch((err) => {
+        console.log(err);
+      });
   }
 
   useEffect(() => {
@@ -163,7 +166,6 @@ function App() {
       })
   }
 
-
   function handleRegister({ password, email }) {
     return api.register(password, email)
       .then((res) => {
@@ -178,7 +180,6 @@ function App() {
     setLoggedIn(false);
     navigate('/signin', { replace: true });
   };
-
 
   return (
     <CurrentUserContext.Provider value={currentUser}>

@@ -16,40 +16,25 @@ class Api {
   register(password, email) {
     return fetch(`${this._BASE_URL}/signup`, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         password: password,
         email: email
       })
     })
-      .then((res) => {
-        if (res.ok) {
-          return res.json()
-        }
-        return Promise.reject(new Error('Неправильный логин или пароль'));
-      })
+      .then((res) => this._getResponseData(res));
   };
 
   authorize(password, email) {
     return fetch(`${this._BASE_URL}/signin`, {
       method: 'POST',
-      headers: {
-        "Content-Type": "application/json"
-      },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         password: password,
         email: email
       })
     })
-      .then((res) => {
-        if (res.ok) {
-          return res.json()
-        }
-        return Promise.reject(new Error('Неправильный логин или пароль'));
-      }
-      )
+      .then((res) => this._getResponseData(res));
   };
 
   getContent(token) {
