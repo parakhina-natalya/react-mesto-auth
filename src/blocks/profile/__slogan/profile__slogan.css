@@ -1,0 +1,17 @@
+.profile__slogan {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #FFFFFF;
+  padding-bottom: 18px;
+}
+
+@media screen and (max-width: 918px) {
+  .profile__slogan {
+    font-size: 14px;
+    line-height: 1.21;
+    padding-bottom: 32px;
+    text-align: center;
+  }
+}

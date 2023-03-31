@@ -1,0 +1,32 @@
+.nav__link {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity .2s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 918px) {
+  .nav__link {
+    padding-right: 19px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .nav__link {
+    padding-right: 0;
+  }
+}
+
+.nav__link:hover {
+  opacity: 0.6;
+}
+
+.nav__link_disabled {
+  display: none;
+}

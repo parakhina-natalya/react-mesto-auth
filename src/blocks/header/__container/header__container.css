@@ -1,0 +1,11 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+@media screen and (max-width: 760px) {
+  .header__container {
+    flex-direction: column-reverse;
+  }
+}

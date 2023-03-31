@@ -1,0 +1,24 @@
+.button_el_authorizations {
+  margin-top: 18px;
+  width: 358px;
+  height: 50px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.22;
+  color: #fff;
+  color: #000;
+  border-radius: 2px;
+  text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  .button_el_authorizations {
+    max-width: 260px;
+  }
+}
+
+.button_el_authorizations:hover {
+  opacity: 0.85;
+}

@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  gap: 24px;
+  padding-top: 7px;
+}
+
+@media screen and (max-width: 760px) {
+  .nav {
+    margin: auto;
+    flex-direction: column;
+    padding-top: 12px;
+    border-bottom: 1px solid rgba(84, 84, 84, .7);
+    padding-bottom: 40px;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav {
+    padding-top: 12px;
+  }
+}

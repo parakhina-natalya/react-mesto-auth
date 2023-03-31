@@ -1,0 +1,9 @@
+.popup__title_position_form {
+  padding-bottom: 48px;
+}
+
+@media screen and (max-width: 918px) {
+  .popup__title_position_form {
+    padding-bottom: 75px;
+  }
+}

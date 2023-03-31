@@ -1,0 +1,5 @@
+.card__like-box {
+  min-height: 38px;
+  display: flex;
+  flex-direction: column;
+}

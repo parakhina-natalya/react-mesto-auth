@@ -1,0 +1,13 @@
+.form__authorizations {
+  max-width: 358px;
+  width: 100%;
+  padding: 0;
+  margin: 50px auto 15px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 375px) {
+  .form__authorizations {
+    max-width: 260px;
+  }
+}

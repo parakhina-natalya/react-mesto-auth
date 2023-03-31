@@ -1,0 +1,22 @@
+.button_el_edit {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #FFFFFF;
+  margin: 15px 0 0 18px;
+  padding: 0;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 918px) {
+  .button_el_edit {
+    width: 18px;
+    height: 18px;
+    margin-top: 8px;
+    margin-left: 0;
+  }
+}
+
+.button_el_edit:hover {
+  opacity: 0.6;
+}
+

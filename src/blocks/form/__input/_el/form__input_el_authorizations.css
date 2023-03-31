@@ -1,0 +1,15 @@
+.form__input_el_authorizations {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.form__input_el_authorizations:last-of-type {
+  margin-bottom: 212px;
+}
+
+.form__input_el_authorizations:last-child {
+  margin-bottom: 0;
+}

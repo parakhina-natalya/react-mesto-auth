@@ -1,0 +1,14 @@
+.authorizations__login-link {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity .2s;
+}
+
+.authorizations__login-link:hover {
+  opacity: 0.6;
+}

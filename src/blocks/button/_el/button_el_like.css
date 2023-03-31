@@ -1,0 +1,12 @@
+.button_el_like {
+  background: url(../../../images/like-icon.svg) no-repeat;
+  background-size: cover;
+  width: 22px;
+  height: 19px;
+  align-self: center;
+  background-color: transparent;
+}
+
+.button_el_like:hover {
+  opacity: 0.5;
+}
